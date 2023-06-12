@@ -1,0 +1,6 @@
+[submodule "Python_Lib"]
+	path = Python_Lib
+	url = https://github.com/liyuanhe211/Python_Lib.git
+[submodule "Multiwfn_GUI"]
+	path = Multiwfn_GUI
+	url = https://github.com/liyuanhe211/Multiwfn_GUI.git

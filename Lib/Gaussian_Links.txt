@@ -1,0 +1,79 @@
+﻿L0	Initializes program and controls overlaying
+L1	Processes route section, builds list of links to execute, and initializes scratch files
+L101	Reads title and molecule specification
+L102	Fletcher-Powell optimizations
+L103	Berny optimizations to minima and TS, STQN transition state searches
+L105	Murtaugh-Sargent optimizations
+L106	Numerical differentiation of forces/dipoles to obtain polarizability/ hyperpolarizability
+L107	Linear-synchronous-transit (LST) transition state search
+L108	Unrelaxed potential energy surface scan
+L109	Newton-Raphson optimization
+L110	Double numerical differentiation of energies to produce frequencies
+L111	Double numerical differentiation of energies to compute polarizabilities and hyperpolarizabilities
+L112	Performs the Self-Consistent Virial Scaling method (SCVS), T. A. Keith's extension of [Lowdin59, Magnoli82,Lehd91]
+L113	EF optimization using analytic gradients
+L114	EF numerical optimization (using only energies)
+L115	Follows reaction path using GS3 algorithm
+L116	Numerical self-consistent reaction field (SCRF)
+L117	Performs IPCM solvation calculations.
+L118	BOMD calculations
+L120	Controls ONIOM calculations
+L121	ADMP calculations
+L122	Counterpoise calculations
+L123	Follows reaction path using the HPC algorithm (and others)
+L124	Performs ONIOM with PCM and external-iteration PCM
+L202	Reorients coordinates, calculates symmetry, and checks variables
+L301	Generates basis set information
+L302	Calculates overlap, kinetic, and potential integrals
+L303	Calculates multipole integrals
+L308	Computes dipole velocity and Rx∇integrals
+L310	Computes spdf 2-electron integrals in a primitive fashion
+L311	Computes sp 2-electron integrals
+L314	Computes spdf 2-electron integrals
+L316	Prints 2-electron integrals
+L319	Computes 1-electron integrals for approximate spin orbital coupling
+L401	Forms the initial MO guess
+L402	Performs semi-empirical and molecular mechanics calculations
+L405	Initializes an MCSCF calculation
+L502	Iteratively solves the SCF equations (conven. UHF & ROHF, all direct methods, SCRF)
+L503	Iteratively solves the SCF equations using direct minimization
+L506	Performs an ROHF or GVB-PP calculation
+L508	Quadratically convergent SCF program
+L510	MC-SCF
+L601	Population and related analyses (including multipole moments)
+L602	1-electron properties (potential, field, and field gradient)
+L604	Evaluates MOs or density over a grid of points
+L607	Performs NBO analyses
+L608	Non-iterative DFT energies
+L609	Atoms in Molecules properties
+L610	Numerical integration (for testing integral codes)
+L701	1-electron integral first or second derivatives
+L702	2-electron integral first or second derivatives (sp)
+L703	2-electron integral first or second derivatives (spdf)
+L716	Processes information for optimizations and frequencies
+L801	Initializes transformation of 2-electron integrals
+L802	Performs integral transformation (N3 in-core)
+L804	Integral transformation
+L811	Transforms integral derivatives & computes their contributions to MP2 2nd derivatives
+L901	Anti-symmetrizes 2-electron integrals
+L902	Determines the stability of the Hartree-Fock wavefunction
+L903	Old in-core MP2
+L904	Complete basis set (CBS) extrapolation method of Petersson, et. al.
+L905	Complex MP2
+L906	Semi-direct MP2
+L908	Electron Propagator Program
+L913	Calculates post-SCF energies and gradient terms
+L914	CI-Singles, RPA and ZIndo excited states; SCF stability
+L915	Computes fifth order quantities (for MP5, QCISD(TQ) and BD(TQ))
+L916	Old MP4 and CCSD
+L918	Reoptimizes the wavefunction
+L923	SAC-CI program
+L1002	Iteratively solves the CPHF equations; computes various properties (including NMR)
+L1003	Iteratively solves the CP-MCSCF equations
+L1014	Computes analytic CI-Singles second derivatives
+L1101	Computes 1-electron integral derivatives
+L1102	Computes dipole derivative integrals
+L1110	2-electron integral derivative contribution to F(x)
+L1111	2 particle density matrix and post-SCF derivatives
+L1112	MP2 second derivatives
+L9999	Finalizes calculation and output

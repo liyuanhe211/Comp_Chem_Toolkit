@@ -1,0 +1,27 @@
+__pycache__/
+*.lnk
+/Last_Route.gjf
+/Last_Route.inp
+/Known Issue/
+/Config.ini
+/Config.json
+/Comp_configs.txt
+/Experiment_Zone.py
+/Obsolete/
+/Temp/
+~$*.*
+.idea/
+/0_Visualization/Temp/
+Last_Route.*
+*.xyz
+/Automatic_xTB_optimizer_monitoring_list.txt
+/0_Multiwfn_Tools/temp/
+/0_Multiwfn_Tools/Multiwfn*
+/xTB_Bin/
+/xTB_in_Chem3D/
+/test.py
+Lib/pycp2k
+Lib/pycp2k_master
+Config.json
+/Privates/
+/Run_Kinetic_Result/

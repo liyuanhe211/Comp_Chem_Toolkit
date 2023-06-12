@@ -11,7 +11,6 @@ sys.path.append(parent_path)
 from Python_Lib.My_Lib_PyQt6 import *
 from Lib_Coordinates import *
 from Lib_CP2K import *
-from Lib_Data import *
 from Lib_Gaussian import *
 from Lib_GUI import *
 from Lib_MOPAC import *
@@ -123,7 +122,7 @@ def fluctuation_determine(data=None, atom_count=-1, silent=False):
     threshold = atom_count / 3 if atom_count > 50 else 16
     if not opt_flucturation_threshold_shown:
         if not silent:
-            print("Using flucturation threshold", threshold)
+            print("Using fluctuation threshold", threshold)
         opt_flucturation_threshold_shown = True
     if max_through > threshold:  # 16 and 1/3 is an arbitrary sensitivity control number
         new_fluctuation_message = get_print_str("Fluctuation detected! Max fluctuation count:", max_through, " Threshold:", max_through_threshold)

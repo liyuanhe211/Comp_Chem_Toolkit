@@ -361,9 +361,6 @@ class CP2K_Input:
                 section.set_child(keyword_name, keyword_value)
 
 
-# a = CP2K_Input(r"D:\Gaussian\JP_ZJC_Crystal_Packing_Energy_Decomposition\rod_hybrid_opt_PBE0_422_Supercell.inp")
-# a.open_gview()
-
 class CP2K_Output:
     def __init__(self, input_file: Optional[str] = None, input_content: Union[str, list, None] = None):
         self.input_file = input_file

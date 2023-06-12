@@ -32,7 +32,7 @@ def coverage(input_list,full_range = (-180,180)):
 
 
 
-test_mol2file = r"D:\Gaussian\THF_Explicit_Solvation\31.mol2"
+test_mol2file = r"D:\Gaussian\XXXXXXXXXXXXX\31.mol2"
 
 mol2_bond_order = get_bond_order_from_mol2_file(test_mol2file)
 mol2_coordinate = [std_coordinate(x) for x in open(test_mol2file).readlines()] # just to fill up the get_dihedrals function
@@ -64,7 +64,7 @@ def read_mdcrd_coordinate(mdcrd_file, atoms_to_take:int, total_atom:int, periodi
 
     return ret
 
-mdcrd_frames = read_mdcrd_coordinate(r"D:\Gaussian\THF_Explicit_Solvation\confsearch_pickonly2.mdcrd",
+mdcrd_frames = read_mdcrd_coordinate(r"D:\Gaussian\XXXXXXXXXXXXXXXX\confsearch_pickonly2.mdcrd",
                                      85, 1255, True)
 
 from collections import OrderedDict
